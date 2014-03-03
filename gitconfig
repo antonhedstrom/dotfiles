@@ -50,4 +50,4 @@
   tool = opendiff
 
 [push]
-	default = simple
+  default = simple
