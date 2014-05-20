@@ -46,7 +46,7 @@
   df = diff
 
   # View abbreviated SHA, auhtor and description of the latest commits
-  lg = log  --max-count=10 --format="%C(auto)*%h... %C(green)%<(16,trunc)%an%C(reset) : %s"
+  lg = log --max-count=10 --format="%C(auto)*%h... %C(green)%<(16,trunc)%an%C(reset) : %s"
 
   # https://github.com/mathiasbynens/dotfiles/blob/master/.gitconfig
   # Show verbose output about tags, branches or remotes
@@ -60,4 +60,4 @@
   tool = opendiff
 
 [push]
-  default = simple
+  default = matching
