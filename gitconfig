@@ -44,7 +44,17 @@
   br = branch
   co = checkout
   df = diff
-  lg = log -p
+
+  # View abbreviated SHA, auhtor and description of the latest commits
+  lg = log  --max-count=10 --format="%C(auto)*%h... %C(green)%<(16,trunc)%an%C(reset) : %s"
+
+  # https://github.com/mathiasbynens/dotfiles/blob/master/.gitconfig
+  # Show verbose output about tags, branches or remotes
+  tags = tag -l
+  branches = branch -a
+  remotes = remote -v
+  # View the current working tree status using the short format
+  s = status -s
 
 [merge]
   tool = opendiff
