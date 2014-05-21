@@ -1,5 +1,7 @@
 # Local files
 local/*
+# ... except:
+local/README*
 
 # Mac specific
 .DS_Store
