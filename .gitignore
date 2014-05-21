@@ -1,0 +1,6 @@
+# Local files
+local/*
+
+
+# Mac specific
+.DS_Store
