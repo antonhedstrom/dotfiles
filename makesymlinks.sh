@@ -7,9 +7,9 @@
 
 ########## Variables
 
-dir=~/dotfiles                    # dotfiles directory
-olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bash_profile profile gitconfig"    # list of files/folders to symlink in homedir
+dir=~/dotfiles                             # dotfiles directory
+olddir=$dir/_backup/$(date +%Y%m%d_%H%M%S) # old dotfiles backup directory
+files="bash_profile profile gitconfig"     # list of files/folders to symlink in homedir
 
 ##########
 

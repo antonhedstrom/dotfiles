@@ -24,9 +24,6 @@ $LIGHT_RED\u : \w\
 
 export PATH=/usr/bin:$PATH
 
-export SDK=/Users/Anton/Applications/Android/android-sdk-mac_x86/tools
-export NDK=/Users/Anton/Applications/Android/android-ndk-r5b
-export PATH=$SDK:$NDK:$PATH
 export GIT_PAGER='less -r'
 
 proml
