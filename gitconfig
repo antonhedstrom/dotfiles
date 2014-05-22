@@ -60,6 +60,8 @@
 
 [merge]
   tool = opendiff
+  # Search for --no-ff: http://nvie.com/posts/a-successful-git-branching-model/
+	ff = false
 
 [push]
   default = matching
