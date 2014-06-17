@@ -30,11 +30,11 @@ gem install sass
 
 ## Load my dotfiles
 
-You have probably already cloned the repo by now. In that case you can skip the first row. Still need to execute makesymlinks.sh though.
+You have probably already cloned the repo by now. In that case you can skip the first row. Still need to execute bootstrap.sh though.
 
 ```bash
 git clone https://github.com/antonhedstrom/dotfiles.git ~/dotfiles
-cd ~/dotfiles && ./makesymlinks.sh
+cd ~/dotfiles && ./bootstrap.sh
 ```
 
 # Thanks to...
