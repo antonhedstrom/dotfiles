@@ -3,8 +3,7 @@
 dir="dotfiles" # Folder for this script
 
 # In case we executed script from outside folder
-cd ~;
-cd "$dir";
+cd ~/$dir;
 
 # Make sure we have the latest
 # cd ˙ git pull origin master

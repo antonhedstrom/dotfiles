@@ -1,5 +1,12 @@
+
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH
+
+export PATH=/usr/local/git/bin:$PATH
+
 # Set the default editor
-export EDITOR="vim"
+#export EDITOR="vim"
 
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
+
+export GIT_PAGER='less -r'

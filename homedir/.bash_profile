@@ -1,7 +1,7 @@
+#!/usr/bin/env bash
+
 # Set up my config!
 source ~/.profile
-
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:$PATH
 
 # Load the shell dotfiles
 for file in ~/dotfiles/shell/*; do
