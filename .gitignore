@@ -1,7 +1,13 @@
 # Local files
 local/*
 # ... except:
-local/README*
+!local/README*
+
+# Only keep backups locally
+backup/*
 
 # Mac specific
 .DS_Store
+
+npm-debug.log
+

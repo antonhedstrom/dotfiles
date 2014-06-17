@@ -1,0 +1,1 @@
+All files that begins with a dot will be symlinked from home(~) to this folder.
