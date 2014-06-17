@@ -5,9 +5,6 @@
 [github]
   user = antonhedstrom
 
-[branch]
-  autosetupmerge = true
-
 [branch "master"]
   remote = origin
   merge = refs/heads/master
@@ -57,9 +54,6 @@
   remotes = remote -v
   # View the current working tree status using the short format
   s = status -s
-
-[merge]
-  tool = opendiff
 
 [push]
   default = matching
