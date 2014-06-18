@@ -6,11 +6,13 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
+#alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+alias lsa="ls -al"
+
 
 # Shortcuts
-alias p="cd ~/Develop"
+alias p="cd ~/Code"
 alias g="git"
 
 # Get week number
