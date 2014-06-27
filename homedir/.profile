@@ -34,11 +34,7 @@ git_prompt ()
     if [ -z "$GIT_DIR" ]; then
         return 0
     fi
-    GIT_HEAD=`cat $GIT_DIR/HEAD`
-    GIT_BRANCH=${GIT_HEAD##*/}
-    if [ ${#GIT_BRANCH} -eq 40 ]; then
-        GIT_BRANCH="(no branch)"
-    fi
+    GIT_BRANCH=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
     STATUS=`git status --porcelain`
     if [ -z "$STATUS" ]; then
         git_color="${c_git_clean}"
