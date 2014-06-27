@@ -34,12 +34,13 @@
 [core]
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
   autocrlf = input
-	editor = vim
+  editor = vim
 
 [alias]
   st = status
   ci = commit
   br = branch
+  brs = branch -a
   co = checkout
   df = diff
 
@@ -56,4 +57,4 @@
   s = status -s
 
 [push]
-  default = matching
+  default = simple

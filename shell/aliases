@@ -19,6 +19,7 @@ alias g="git"
 alias gst="git st"
 alias ga="git add"
 alias gaa="git add --all"
+alias gd="git diff"
 
 # Get week number
 alias week='date +%V'
