@@ -5,10 +5,6 @@
 [github]
   user = antonhedstrom
 
-[branch "master"]
-  remote = origin
-  merge = refs/heads/master
-
 [color]
   branch = auto
   diff = auto
