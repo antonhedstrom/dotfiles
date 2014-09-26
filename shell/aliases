@@ -35,5 +35,5 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias coffee=“afk”
 
 # Packages
-alias tree2="tree -L 2"
-alias tree3="tree -L 3"
+alias tr2="tree -L 2"
+alias tr3="tree -L 3"
