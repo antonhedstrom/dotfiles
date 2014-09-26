@@ -29,6 +29,9 @@ done
 # Reload bash_profile
 source ~/.bash_profile
 
+# Install packages
+source ./brew.sh
+
 # Clear variables
 unset dir
 unset backup_dir

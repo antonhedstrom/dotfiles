@@ -33,3 +33,7 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias coffee=“afk”
+
+# Packages
+alias tree2="tree -L 2"
+alias tree3="tree -L 3"
