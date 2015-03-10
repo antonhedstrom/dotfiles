@@ -8,6 +8,9 @@ if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
   c_git_staged='\[\e[0;92m\]'
   c_git_unstaged='\[\e[0;95m\]'
   c_input='\[\e[0;37m\]'
+  c_grey='\[\e[2m\]'
+
+  c_turkos='\[\e[1;36;40m\]'
 else
   c_reset=
   c_user=
@@ -50,7 +53,7 @@ git_prompt ()
 }
 
 # Thy holy prompt.
-PROMPT_COMMAND="$PROMPT_COMMAND PS1=\"${TITLEBAR}${c_user}\u${c_reset} : ${c_path}\w${c_reset}\$(git_prompt) \n\$ ${c_input} \" ;"
+PROMPT_COMMAND="$PROMPT_COMMAND PS1=\"${TITLEBAR}${c_grey}\u${c_reset}: ${c_turkos}\w${c_reset}\$(git_prompt) \n${c_grey}\A${c_reset}# ${c_input}\" ;"
 PROMPT_COMMAND="$PROMPT_COMMAND PS2=\"> \" ;"
 PROMPT_COMMAND="$PROMPT_COMMAND PS4=\"+ \" ;"
 
@@ -74,7 +77,7 @@ function proml {
   PS1="${TITLEBAR}\
 
   $LIGHT_RED\u : \w \
-  \n$WHITE\$$LIGHT_GRAY "\
+  \n$LIGHT_GRAY\A $WHITE\$$LIGHT_GRAY "\
   PS2='> '
   PS4='+ '
 }
